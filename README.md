@@ -1,3 +1,6 @@
+
+![Tic Tac Toe GUI Image](https://user-images.githubusercontent.com/72680045/109675782-1ad2bd80-7b9e-11eb-944e-3bac501a694c.PNG)
+
 ## Introduction
 To solve games using AI, we will introduce the concept of a Game Tree followed by Minimax algorithm. This algorithm sees a few steps ahead and puts itself in the shoes of its opponent. It keeps playing ahead until it reaches a terminal arrangement of the board (terminal state) resulting in a tie, a win, or a loss. Once in a terminal state, the AI will assign an arbitrary positive score (+10) for a win, a negative score (-10) for a loss, or a neutral score (0) for a tie.
 
@@ -13,7 +16,7 @@ To check whether or not the current move is better than the best move we take th
 
 ### Image: 
 
-![Game Tree Image](https://github.com/dhhruv/Tic-Tac-Toe/blob/master/tictactoe.jpg)
+![Game Tree Image](https://user-images.githubusercontent.com/72680045/109675821-232af880-7b9e-11eb-9062-99cc212692ee.jpg)
 
 ### Explanation:
 
