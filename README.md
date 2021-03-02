@@ -1,3 +1,4 @@
+**In order to make the traditional Tic Tac Toe Game unbeatable, it is necessary to create an algorithm that can calculate all the possible moves available for the Computer and can use that to determine the best possible move.**
 
 ![Tic Tac Toe GUI Image](https://user-images.githubusercontent.com/72680045/109675782-1ad2bd80-7b9e-11eb-944e-3bac501a694c.PNG)
 
