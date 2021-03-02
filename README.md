@@ -30,3 +30,7 @@ The 3 possible scenarios in the above example are :
 
 **Remember, even though X has a possibility of winning if he plays the middle move, O will never let that happen and will choose to draw instead.**
 Therefore the best choice for X, is to play [2,2], which will guarantee a victory for him.
+
+### References:
+- [Wikipedia](https://en.wikipedia.org/wiki/Minimax)
+- [GeeksforGeeks](https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-3-tic-tac-toe-ai-finding-optimal-move/)
