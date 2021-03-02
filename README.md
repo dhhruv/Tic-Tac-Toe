@@ -1,6 +1,6 @@
 **In order to make the traditional Tic Tac Toe Game unbeatable, it is necessary to create an algorithm that can calculate all the possible moves available for the Computer and can use that to determine the best possible move.**
 
-![Tic Tac Toe GUI Image](https://user-images.githubusercontent.com/72680045/109675782-1ad2bd80-7b9e-11eb-944e-3bac501a694c.PNG)
+![Tic Tac Toe GUI](https://user-images.githubusercontent.com/72680045/109683079-02b26c80-7ba5-11eb-93af-656d383a0324.gif)
 
 ## Introduction
 To solve games using AI, we will introduce the concept of a Game Tree followed by Minimax algorithm. This algorithm sees a few steps ahead and puts itself in the shoes of its opponent. It keeps playing ahead until it reaches a terminal arrangement of the board (terminal state) resulting in a tie, a win, or a loss. Once in a terminal state, the AI will assign an arbitrary positive score (+10) for a win, a negative score (-10) for a loss, or a neutral score (0) for a tie.
