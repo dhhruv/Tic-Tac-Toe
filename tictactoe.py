@@ -6,6 +6,8 @@ import pygame as pg
 import sys
 from pygame.locals import *
 import time
+import os
+import os.path
 
 # initializing global variables
 XO = 'x'
@@ -27,10 +29,17 @@ CLOCK = pg.time.Clock()
 screen = pg.display.set_mode((width, height + 100), 0, 32)
 pg.display.set_caption('Tic Tac Toe')
 
+bundle_dir = getattr(sys, '_MEIPASS', os.path.abspath(os.path.dirname(__file__)))
+bundle_dir2 = getattr(sys, '_MEIPASS', os.path.abspath(os.path.dirname(__file__)))
+bundle_dir3 = getattr(sys, '_MEIPASS', os.path.abspath(os.path.dirname(__file__)))
+
 # loading the images
-opening = pg.image.load('tic tac opening.png')
-x_img = pg.image.load('x.png')
-o_img = pg.image.load('o.png')
+path_to_opening = os.path.abspath(os.path.join(bundle_dir, 'tic tac opening.png'))
+opening = pg.image.load(path_to_opening)
+path_to_x = os.path.abspath(os.path.join(bundle_dir2, 'x.png'))
+x_img = pg.image.load(path_to_x)
+path_to_o = os.path.abspath(os.path.join(bundle_dir3, 'o.png'))
+o_img = pg.image.load(path_to_o)
 
 # resizing images
 x_img = pg.transform.scale(x_img, (80, 80))
