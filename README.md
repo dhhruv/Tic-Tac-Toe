@@ -5,8 +5,9 @@
     	<img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white">
     </a>
 </p>
-
-![Tic Tac Toe GUI](https://user-images.githubusercontent.com/72680045/109683079-02b26c80-7ba5-11eb-93af-656d383a0324.gif)
+<p align="center">
+	<img src="https://user-images.githubusercontent.com/72680045/109683079-02b26c80-7ba5-11eb-93af-656d383a0324.gif">
+</p>
 
 ## Introduction
 To solve games using AI, we will introduce the concept of a Game Tree followed by Minimax algorithm. This algorithm sees a few steps ahead and puts itself in the shoes of its opponent. It keeps playing ahead until it reaches a terminal arrangement of the board (terminal state) resulting in a tie, a win, or a loss. Once in a terminal state, the AI will assign an arbitrary positive score (+10) for a win, a negative score (-10) for a loss, or a neutral score (0) for a tie.
