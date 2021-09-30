@@ -1,0 +1,25 @@
+while len(empty_cells(board)) > 0 and not game_over(board):
+    if first == "N":
+        ai_turn(c_choice, h_choice)
+        first = ""
+
+    human_turn(c_choice, h_choice)
+    ai_turn(c_choice, h_choice)
+
+# Game over message
+if wins(board, HUMAN):
+    clean()
+    print(f"Human turn [{h_choice}]")
+    render(board, c_choice, h_choice)
+    print("YOU WIN!")
+elif wins(board, COMP):
+    clean()
+    print(f"Computer turn [{c_choice}]")
+    render(board, c_choice, h_choice)
+    print("YOU LOSE!")
+else:
+    clean()
+    render(board, c_choice, h_choice)
+    print("DRAW!")
+
+exit()
